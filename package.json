@@ -1,11 +1,15 @@
 {
   "name": "nodejs-design-patterns",
   "version": "1.0.0",
-  "description": "This repository is a collection of Design Patterns study files.",
+  "description": "This repository is a collection of Design Patterns applied in Node.js study files.",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src"
+    "start": "node ./src/${p}"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugolacerdar/nodejs-design-patterns"
+  },
+  "author": "Hugo Lacerda",
   "license": "ISC"
 }
